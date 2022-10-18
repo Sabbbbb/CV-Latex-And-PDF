@@ -1,0 +1,154 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Sabjel Pasha} \\ \vspace{6pt}
+    \small 0874585049 $|$ \href{mailto:sabjel10@gmail.com}{\underline{sabjel10@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/sabjel-pasha?lipi=urn\%3Ali\%3Apage\%3Ad_flagship3_profile_view_base_contact_details\%3BFzu8iaabQKWTqNBau\%2BWMcw\%3D\%3D}{\underline{linkedin.com/in/sabjel-pasha}} $|$
+    \href{https://github.com/Sabbbbb}{\underline{github.com/Sabbbbb}}
+\end{center}
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, C++, HTML/CSS, ARM Assembly, R, LaTeX, Processing} \\
+     \textbf{Frameworks}{: JUnit, SDL/SDL2} \\
+     \textbf{Developer Tools}{: Git, Visual Studio Code, Eclipse, Emacs, TMC Beans, R Studio, Processing} \\
+    }}
+ \end{itemize}
+
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Trinity College Dublin}{Aug. 2021 -- Present}
+      {Bachelor of Arts in Computer Science, Minor in Geography}{Dublin, Ireland}
+      
+\resumeProjectHeading
+          {\textbf{Relevant Modules} $ $ \emph{}}{}
+          \resumeItemListStart
+            \resumeItem{Data Structures and Algorithms, Intro to Programming, Intermediate Programming, Intro to Computing, Programming Project, Statistical Analysis, Mathematics.}
+          \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{Space Object Project} $|$ \emph{Processing, Java, SmartSVN}}{Jan 2022 -- Mar. 2022}
+          \resumeItemListStart
+            \resumeItem{Developed an application to explore data relating to artificial space objects, such as satellites or debris.}
+            \resumeItem{The data is read in from a public dataset from the General Catalog of Artificial Space Objects}
+            \resumeItem{Sorted the objects from a .tsv file into arrays based on the mass, launch dates, current status, country etc.}
+            \resumeItem{Implemented an interactive GUI which can be used to search for and neatly display space objects launched at the requested date, from a data set of 50,000 space objects}
+            \resumeItem{Implemented a function which helps visualise the mass / altitude of the space objects by displaying objects within a specified altitude and drawing them on the screen relative to their real mass.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+          {\textbf{Sorting Algorithm Visualiser} $|$ \emph{C++, SDL/SDL2, Visual Studio Code}}{Sep. 2022 - Sep 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a program that visualises an insertion sort algorithm in C++.}
+            \resumeItem{Implemented SDL/SDL2 library to display the graphics via OpenGL.}
+            \resumeItem{Creates an array with 100 randomly generated integers on each run.}
+            \resumeItem{Each number in the array is represented as a vertical rectangle of relative height.}
+            \resumeItem{Each step of the sorting algorithm is animated and the user can watch as the rectangles are sorted according to size and finally displayed in order.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {IT Student Advisor}{Sep. 2022 -- Present}
+      {IT Services, Trinity College Dublin}{Dublin, Ireland}
+      \resumeItemListStart
+        \resumeItem{Responsibility for College Network connection support for student owned PCs, laptops, and mobile devices.}
+        \resumeItem{Providing general support and guidance on IT services to Trinity College students both on campus and at remote sites.}
+        \resumeItem{Provision of advice and assistance with commonly used software applications at Trinity and for anti-virus and malware protection.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+ \section{Extracurricular Skills}
+    \resumeItemListStart
+            \resumeItem{Java Programming Course on \href{https://java-programming.mooc.fi/}{\underline{mooc.fi}}}
+            \resumeItem{Fluent in English and Albanian}
+            \resumeItem{Electric Guitar}
+            \resumeItem{Building PCs}
+    \resumeItemListEnd
+\end{document}
